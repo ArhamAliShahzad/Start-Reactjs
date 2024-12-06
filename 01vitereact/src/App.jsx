@@ -1,12 +1,15 @@
-
-
-
+import Chai from "./my1";
 
 function App() {
+  return(
+    <>
+    <Chai/>
+    <h1>this is my h1</h1>
+    <p>Lorem ipsum, dolor sit</p>
+    </>
+  ) 
 
-  return (
-    <h1>Hello World | React with vite</h1>
-      )
+  
 }
 
-export default App
+export default App;
